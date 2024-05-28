@@ -1,11 +1,11 @@
 {
-  "name": "goit-react-hw-01",
+  "name": "Module-4_HTTP_requests",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/Module-4_HTTP_requests/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.jsx\""
